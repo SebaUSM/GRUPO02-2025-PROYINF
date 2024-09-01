@@ -33,5 +33,5 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar 
 * Actores externos:
   * Usuarios: Personas interesadas en el sector agrícola, que requieren información de productos, suelos, fauna, entre otros relacionados a la agricultura.
   * Ministerio de agricultura. Entidad responsable de coordinación y organización sobre aspectos importantes en boletines.
-
+  * Fuentes externas: Información de otros dominios de internet relevante con respecto a boletin.
 ## Modelo de dominio
