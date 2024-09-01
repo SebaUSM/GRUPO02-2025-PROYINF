@@ -21,8 +21,12 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar 
 
 ## Actores relevantes y Diagrama de conetexto
 * Actores internos:
-
+  * Biblotecaria
+  * Administrador
+  * Directorio
 
 * Actores externos:
+  * Usuarios
+  * Ministerio de agricultura
 
 ## Modelo de dominio
