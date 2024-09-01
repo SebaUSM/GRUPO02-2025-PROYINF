@@ -24,14 +24,14 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar 
 
 ## Actores relevantes y Diagrama de contexto
 * Actores internos:
-  * Sistema de boletines
-  * Biblotecaria
-  * Administrador
-  * Directorio
-  * IA
+  * Sistema de boletines: Se encargará de utilizar IA en conjunto de los parametros establecidos por FIA para la realización de boletines, que serán subidos a la página web.
+  * Biblotecaria: Agente responsable de entregar los parametros y solicitudes a la IA para su busqueda de información y posterior subida a la web.
+  * Administrador: Encargado de realizar mantenciones a la página web y sistemas.
+  * Directorio: Grupo de ejecutivos que válidan la veracidad, congruencia, importancia del boletin entregado.
+  * IA: Inteligencia artificial (VIGIFIA) que gestiona la información solicitada por parametros, y la entrega de forma concisa.
 
 * Actores externos:
-  * Usuarios
-  * Ministerio de agricultura
+  * Usuarios: Personas interesadas en el sector agrícola, que requieren información de productos, suelos, fauna, entre otros relacionados a la agricultura.
+  * Ministerio de agricultura. Entidad responsable de coordinación y organización sobre aspectos 
 
 ## Modelo de dominio
