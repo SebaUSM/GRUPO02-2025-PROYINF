@@ -34,4 +34,8 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar 
   * Usuarios: Personas interesadas en el sector agrícola, que requieren información de productos, suelos, fauna, entre otros relacionados a la agricultura.
   * Ministerio de agricultura. Entidad responsable de coordinación y organización sobre aspectos importantes en boletines.
   * Fuentes externas: Información de otros dominios de internet relevante con respecto a boletin.
+
+![Diagrama de contexto FIA](https://github.com/user-attachments/assets/cf7550c7-36ae-4990-bdb8-af3ad91caa22)
+
 ## Modelo de dominio
+
