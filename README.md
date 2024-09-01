@@ -22,7 +22,7 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), con el fin de sel
 * Agilizar y simplificar el manejo del software para los empleados de FIA.
 * Redacción acorde a los parámetros establecidos por FIA en creación de boletines.
 
-## Actores elevantes y Diagrama de contexto
+## Actores relevantes y Diagrama de contexto
 * Actores internos:
   * Sistema de boletines: Se encargará de utilizar IA en conjunto de los parametros establecidos por FIA para la realización de boletines, que serán subidos a la página web.
   * Biblotecaria: Agente responsable de entregar los parametros y solicitudes a la IA para su busqueda de información y posterior subida a la web.
