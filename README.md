@@ -3,7 +3,7 @@
 Este es el repositorio del grupo 11 cuyos integrantes son:
 
 * Sebastián Torres - 202073596-4
-* Macarena del Hoyo
+* Macarena del Hoyo - 202104653-4
 * Bastian
 * Felipe
 
