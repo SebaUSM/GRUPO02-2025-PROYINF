@@ -8,7 +8,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Felipe
 
 #### Ayudante: Tabata Ahumada
-
+#### Profesor: Ricardo Salas
 ## Wiki
 
 ## Videos
