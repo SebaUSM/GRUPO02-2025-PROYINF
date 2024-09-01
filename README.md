@@ -21,9 +21,11 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar 
 
 ## Actores relevantes y Diagrama de contexto
 * Actores internos:
+  * Sistema de boletines
   * Biblotecaria
   * Administrador
   * Directorio
+  * IA
 
 * Actores externos:
   * Usuarios
