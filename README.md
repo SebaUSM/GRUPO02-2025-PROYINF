@@ -15,14 +15,14 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 * [Video presentación cliente](https://www.youtube.com/watch?v=abJau21SDIk)
 
-## Objetivos y criterios de éxito
+## Objetivos y Criterios de éxito
 
-Se utilizará un sistema de inteligencia artificial (VIGIFIA), para seleccionar la información necesaria para abordar el analisis de fauna, suelos o componentes pertenecientes a la agricultura estableciendo informes periódicos hacia la comunidad agrícola con respecto a aspectos territoriales y productivos. Dentro de este marco, nos centraremos en:
-* Disminuir el tiempo de creación de boletienes (Actualmente tienen una demora de 3 meses).
-* Agilizar y simplificar el manejo del software para los empleados de FIA
+Se utilizará un sistema de inteligencia artificial (VIGIFIA), con el fin de seleccionar la información necesaria para abordar el analisis de fauna, suelos o componentes pertenecientes a la agricultura estableciendo informes periódicos hacia la comunidad agrícola con respecto a aspectos territoriales y productivos. Dentro de este marco, nos centraremos en:
+* Disminuir el tiempo de creación de boletines (Actualmente tienen una demora de 3 meses).
+* Agilizar y simplificar el manejo del software para los empleados de FIA.
 * Redacción acorde a los parámetros establecidos por FIA en creación de boletines.
 
-## Actores relevantes y Diagrama de contexto
+## Actores elevantes y Diagrama de contexto
 * Actores internos:
   * Sistema de boletines: Se encargará de utilizar IA en conjunto de los parametros establecidos por FIA para la realización de boletines, que serán subidos a la página web.
   * Biblotecaria: Agente responsable de entregar los parametros y solicitudes a la IA para su busqueda de información y posterior subida a la web.
