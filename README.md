@@ -7,6 +7,8 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Bastian
 * Felipe
 
+# Ayudante: Tabata Ahumada
+
 ## Wiki
 
 ## Videos
