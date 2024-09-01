@@ -5,7 +5,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Sebastián Torres - 202073596-4
 * Macarena del Hoyo - 202104653-4
 * Bastian
-* Felipe
+* Felipe Azargado - 20227309-7
 
 #### Ayudante: Tabata Ahumada
 #### Profesor: Ricardo Salas
