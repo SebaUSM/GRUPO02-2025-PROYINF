@@ -38,8 +38,9 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), con el fin de sel
   * Ministerio de agricultura. Entidad responsable de coordinación y organización sobre aspectos importantes en boletines.
   * Fuentes externas: Información de otros dominios de internet relevante con respecto a boletin.
 
-![Diagrama de contexto FIA](https://github.com/user-attachments/assets/54a0d89e-105f-44b4-8739-540a2f0b6713)
+![Diagrama de contexto FIA](https://github.com/user-attachments/assets/09544fe3-ac99-448b-8382-c174362e0873)
 
 ## Modelo de dominio
 
-![Diagrama de dominio](https://github.com/user-attachments/assets/43755cc0-720d-4ba4-9f61-603ea4ca479e)
+![Diagrama de dominio](https://github.com/user-attachments/assets/ea564655-9bca-44fc-9693-7fae4b80dc9c)
+
