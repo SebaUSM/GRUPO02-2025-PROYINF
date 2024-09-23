@@ -31,7 +31,6 @@ Se utilizará un sistema de inteligencia artificial (VIGIFIA), con el fin de sel
   * Bibliotecóloga: Agente responsable de entregar los parámetros y solicitudes a la IA para su búsqueda de información según el arbol tecnológico y posterior subida a la web.
   * Administrador: Encargado de realizar mantenciones a la página web y sistemas.
   * Directorio: Grupo de ejecutivos que validan la veracidad, coherencia e importancia del boletín entregado.
-  * IA: Inteligencia artificial (VIGIFIA) que gestiona la información solicitada por parámetros, y la entrega de forma concisa.
 
 * Actores externos:
   * Usuarios: Personas interesadas en el sector agrícola, que requieren información de productos, suelos, fauna, entre otros relacionados a la agricultura.
