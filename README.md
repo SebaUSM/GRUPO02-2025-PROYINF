@@ -20,10 +20,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 ## Objetivos y Criterios de éxito
 
-Se utilizará un sistema de inteligencia artificial (VIGIFIA), con el fin de seleccionar la información necesaria para abordar el análisis de fauna, suelos o componentes pertenecientes a la agricultura estableciendo informes periódicos hacia la comunidad agrícola con respecto a aspectos territoriales y productivos. Dentro de este marco, nos centraremos en:
-* Disminuir el tiempo de creación de boletines (Actualmente tienen una demora de 3 meses).
-* Agilizar y simplificar el manejo del software para los empleados de FIA.
-* Redacción acorde a los parámetros establecidos por FIA en creación de boletines.
+* [Link de Objetivos y Criterios de éxito](https://github.com/SebaUSM/GRUPO11-2024-PROYINF/wiki/Objetivos-y-Criterios-de-%C3%A9xito)
 
 ## Actores relevantes y Diagrama de contexto
 * Actores internos:
