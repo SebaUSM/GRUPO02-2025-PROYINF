@@ -20,13 +20,12 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 ## Fases para levantar el proyecto
 
-* Planificación
-  Se centra en 
-* Investigación y recolección de datos
-* Diseño
-* Desarrollo
-* Pruebas
-* Implementación
-* Evaluación y mejoras
-* Documentación del proyecto
+* Planificación (Objetivos, viabilidad y presupuesto)
+* Investigación y recolección de datos (Recolección de datos agrícolas y entrevistas con empleados de FIA)
+* Diseño (Arquitectura del sistema, selección de lenguaje y base de datos, integración con los sistemas existentes de FIA)
+* Desarrollo (Interfaz de usuario, Prototipo, implementar IA)
+* Pruebas (Testeo de rendimiento, usabilidad y optimización)
+* Implementación (Despliegue del sistema, capacitación, monitoreo y soporte)
+* Evaluación y mejoras (Evaluación del desempeño, retroalimentación, actualizacionees)
+* Documentación del proyecto (Información detallada de cada fase del proyecto, con sus respectivos comentarios y propuestas)
 
