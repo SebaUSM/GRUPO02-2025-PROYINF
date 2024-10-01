@@ -10,8 +10,6 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 #### Ayudante: Tabata Ahumada
 #### Profesor: Ricardo Salas
 
-## Fases para levantar el proyecto
-
 ## Wiki
 
 * [Link de Wiki](https://github.com/SebaUSM/hito-1/wiki)
@@ -19,4 +17,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 ## Videos
 
 * [Video presentación cliente](https://www.youtube.com/watch?v=abJau21SDIk)
+
+## Fases para levantar el proyecto
+
 
