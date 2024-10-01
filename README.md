@@ -26,6 +26,6 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Desarrollo (Interfaz de usuario, prototipo, implementar IA)
 * Pruebas (Testeo de rendimiento, usabilidad y optimización)
 * Implementación (Despliegue del sistema, capacitación, monitoreo y soporte)
-* Evaluación y mejoras (Evaluación del desempeño, retroalimentación, actualizacionees)
+* Evaluación y mejoras (Evaluación del desempeño, retroalimentación, actualizaciones)
 * Documentación del proyecto (Información detallada de cada fase del proyecto, con sus respectivos comentarios y propuestas)
 
