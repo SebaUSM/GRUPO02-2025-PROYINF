@@ -21,6 +21,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 ## Fases para levantar el proyecto
 
 * Planificación
+  Se centra en 
 * Investigación y recolección de datos
 * Diseño
 * Desarrollo
