@@ -31,5 +31,5 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 ## Diagramas de secuencia
 
-* [Diagramas de scuencia]https://github.com/SebaUSM/GRUPO11-2024-PROYINF/wiki/Diagramas-de-secuencia
+* [Diagramas de scuencia](https://github.com/SebaUSM/GRUPO11-2024-PROYINF/wiki/Diagramas-de-secuencia)
 
