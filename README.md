@@ -17,6 +17,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 ## Videos
 
 * [Video presentación cliente](https://www.youtube.com/watch?v=abJau21SDIk)
+* [Prototipo del proyecto](https://www.youtube.com/watch?v=abJau21SDIk)
 
 ## Fases para levantar el proyecto
 
