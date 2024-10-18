@@ -20,9 +20,10 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * [Prototipo del proyecto](https://drive.google.com/file/d/1IWqYfkCJeXBLzhFBOsCx3eZIERb5-Bum/view?usp=sharing)
 
 ## Fases para levantar el proyecto
-
+* Instalar [PostgreSQL](https://www.postgresql.org/) (Es la base de datos a utilizar). Se debe crear una base de datos nueva, cambiar las credenciales del archivo **.env**
 * Instalar node.js. Se puede descargar desde [nodejs.org](https://nodejs.org/en) (Se instalará npm que corresponde al gestor de paquetes de Node.js)
 * Luego de haber descargado el proyecto se debe abrir una terminal (cmd, PowerShell, Terminal en macOS/Linux) y navegar hasta la carpeta del proyecto.
 * Luego se debe ejectuar el siguiente comando para instalar todas las dependencias en package.json: **npm install**
 * Dentro de los archivos existe uno llamado **.env.example** que posee las contraseñas para utilizarlas en el login correspondiente.
+* Para ejecutarlo desde la terminal se debe entrar a la carpeta y ejecutar "node src/app.js"
 
