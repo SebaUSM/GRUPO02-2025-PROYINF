@@ -20,7 +20,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 ## Fases para levantar el proyecto
 
-* Instalar node.js. Se puede descargar desde nodejs.org (Se instalará npm que corresponde al gestor de paquetes de Node.js)
+* Instalar node.js. Se puede descargar desde [nodejs.org](https://nodejs.org/en) (Se instalará npm que corresponde al gestor de paquetes de Node.js)
 * Luego de haber descargado el proyecto se debe abrir una terminal (cmd, PowerShell, Terminal en macOS/Linux) y navegar hasta la carpeta del proyecto.
 * Luego se debe ejectuar el siguiente comando para instalar todas las dependencias en package.json: npm install
 * Dentro de los archivos existe uno llamado .env.example que posee las contraseñas para utilizarlas en el login correspondiente
