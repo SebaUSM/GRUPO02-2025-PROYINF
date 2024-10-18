@@ -25,5 +25,5 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Luego de haber descargado el proyecto se debe abrir una terminal (cmd, PowerShell, Terminal en macOS/Linux) y navegar hasta la carpeta del proyecto.
 * Luego se debe ejectuar el siguiente comando para instalar todas las dependencias en package.json: **npm install**
 * Dentro de los archivos existe uno llamado **.env.example** que posee las contraseñas para utilizarlas en el login correspondiente.
-* Para ejecutarlo desde la terminal se debe entrar a la carpeta y ejecutar "node src/app.js"
+* Para ejecutarlo desde la terminal se debe entrar a la carpeta y ejecutar **node src/app.js**
 
