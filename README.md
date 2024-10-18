@@ -20,12 +20,8 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 
 ## Fases para levantar el proyecto
 
-* Planificación (Objetivos, viabilidad y presupuesto)
-* Investigación y recolección de datos (Recolección de datos agrícolas y entrevistas con empleados de FIA)
-* Diseño (Arquitectura del sistema, selección de lenguaje y base de datos, integración con los sistemas existentes de FIA)
-* Desarrollo (Interfaz de usuario, prototipo, implementar IA)
-* Pruebas (Testeo de rendimiento, usabilidad y optimización)
-* Implementación (Despliegue del sistema, capacitación, monitoreo y soporte)
-* Evaluación y mejoras (Evaluación del desempeño, retroalimentación, actualizaciones)
-* Documentación del proyecto (Información detallada de cada fase del proyecto, con sus respectivos comentarios y propuestas)
+* Instalar node.js. Se puede descargar desde nodejs.org (Se instalará npm que corresponde al gestor de paquetes de Node.js)
+* Luego de haber descargado el proyecto se debe abrir una terminal (cmd, PowerShell, Terminal en macOS/Linux) y navegar hasta la carpeta del proyecto.
+* Luego se debe ejectuar el siguiente comando para instalar todas las dependencias en package.json: npm install
+* Dentro de los archivos existe uno llamado .env.example que posee las contraseñas para utilizarlas en el login correspondiente
 
