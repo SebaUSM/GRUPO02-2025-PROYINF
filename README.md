@@ -24,7 +24,7 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * Instalar [PostgreSQL](https://www.postgresql.org/) (Es la base de datos a utilizar). Se debe crear una base de datos nueva con el nombre ```"fia_app_bd"```, y deberá cambiar las credenciales del archivo ```.env```
 <details>
 <summary> Cómo editar archivo .env? </summary>
-Dentro de un IDE que permita su edicion (ej. VSC) deberá ver la siguiente estructura
+Dentro de un IDE que permita su edición (ej. VSC) deberá ver la siguiente estructura:
 
 ```
 DB_HOST=127.0.0.1
@@ -39,7 +39,7 @@ Donde tendrá que cambiar el segmento ```"password"``` por la contraseña que ha
 
 * Instalar node.js. Se puede descargar desde [Nodejs.org](https://nodejs.org/en) (Se instalará npm que corresponde al gestor de paquetes de Node.js)
 -------------
-IMPORTANTE: De aquí en adelante deberá ingresar los siguientes comandos (vía cmd, bash, PowerShell, etc) ubicandose en el directorio raíz del proyecto
+IMPORTANTE: De aquí en adelante deberá ingresar los siguientes comandos (vía cmd, bash, PowerShell, etc) ubicándose en el directorio raíz del proyecto
 * Ejecute el siguiente comando para instalar todas las dependencias listadas en package.json:
 ```
 npm install
@@ -53,7 +53,7 @@ Esto creará la tabla de usuarios en la base de datos, luego ocupe el siguiente 
 npx knex seed:run
 ```
 Este comando rellenará la tabla con valores de prueba para iniciar sesión en la web posteriormente
-* Finalmente para ejecutar el proyecto,se debe ingresar el siguiente comando:
+* Finalmente para ejecutar el proyecto, se debe ingresar el siguiente comando:
 ```
 node src/app.js
 ```
