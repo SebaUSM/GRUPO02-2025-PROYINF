@@ -42,7 +42,6 @@ Donde tendrá que cambiar el segmento ```"password"``` por la contraseña que ha
 ```
 npm install**
 ```
-* Dentro de los archivos existe uno llamado ```.env.example``` que posee las contraseñas para utilizarlas en el login correspondiente.
 * Finalmente para ejecutar el proyecto, desde la terminal (en el directorio) se debe ingresar el siguiente comando:
 ```
 node src/app.js
