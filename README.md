@@ -20,8 +20,8 @@ Este es el repositorio del grupo 11 cuyos integrantes son:
 * [Prototipo del proyecto](https://drive.google.com/file/d/1IWqYfkCJeXBLzhFBOsCx3eZIERb5-Bum/view?usp=sharing)
 
 ## Fases para levantar el proyecto
-* Descargar el proyecto y descomprimir el ```.zip``` resultante en una carpeta
-* Instalar [PostgreSQL](https://www.postgresql.org/) (Es la base de datos a utilizar). Se debe crear una base de datos nueva con el nombre ```"fia_app_bd"```, cambiar las credenciales del archivo ```**.env**```
+* Descargar el proyecto y descomprimir el ```.zip``` resultante en un directorio exclusivo.
+* Instalar [PostgreSQL](https://www.postgresql.org/) (Es la base de datos a utilizar). Se debe crear una base de datos nueva con el nombre ```"fia_app_bd"```, y deberá cambiar las credenciales del archivo ```.env```
 <details>
 <summary> Cómo editar archivo .env? </summary>
 Dentro de un IDE que permita su edicion (ej. VSC) deberá ver la siguiente estructura
@@ -34,15 +34,26 @@ DB_PASSWORD="password"
 JWT_SECRET=tu_jwt_secret
 PORT=3000
 ```
-Donde tendrá que cambiar el segmento ```"password"``` por la contraseña que haya sido declarada al momento de iniciar PostgreSQL
+Donde tendrá que cambiar el segmento ```"password"``` por la contraseña que haya sido declarada al momento de instalar PostgreSQL
 </details>
 
 * Instalar node.js. Se puede descargar desde [Nodejs.org](https://nodejs.org/en) (Se instalará npm que corresponde al gestor de paquetes de Node.js)
-* Desde una terminal (cmd, bash, PowerShell) ubicandose en el directorio base del proyecto se debe ejecutar el siguiente comando para instalar todas las dependencias listadas en package.json:
+-------------
+IMPORTANTE: De aquí en adelante deberá ingresar los siguientes comandos (vía cmd, bash, PowerShell, etc) ubicandose en el directorio raíz del proyecto
+* Ejecute el siguiente comando para instalar todas las dependencias listadas en package.json:
 ```
-npm install**
+npm install
 ```
-* Finalmente para ejecutar el proyecto, desde la terminal (en el directorio) se debe ingresar el siguiente comando:
+* Asegurándose de que Postgre esté en ejecución (con la base de datos ```"fia_app_bd"``` activa), ocupar el comando:
+```
+npx knex migrate:latest
+```
+Esto creará la tabla de usuarios en la base de datos, luego ocupe el siguiente comando:
+```
+npx knex seed:run
+```
+Este comando rellenará la tabla con valores de prueba para iniciar sesión en la web posteriormente
+* Finalmente para ejecutar el proyecto,se debe ingresar el siguiente comando:
 ```
 node src/app.js
 ```
