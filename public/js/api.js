@@ -1,6 +1,4 @@
 
-// services/api.js
-
 const axios = require('axios');
 
 // Se configura la API de Adobe
