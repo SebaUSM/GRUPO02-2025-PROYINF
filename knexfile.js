@@ -1,5 +1,4 @@
 
-
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
@@ -16,13 +15,9 @@ module.exports = {
       password: process.env.DB_PASSWORD
     },
     migrations: {
-      directory: 'src/migrations',
+      directory: './migrations',
       tableName: 'knex_migrations'
-    },
-    seeds: {
-      directory: 'src/seeds'
     }
-
   },
 
   staging: {
