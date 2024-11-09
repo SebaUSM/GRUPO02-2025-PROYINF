@@ -41,5 +41,4 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Error al iniciar sesión');
         }
     });
-    
 });
