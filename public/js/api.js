@@ -1,9 +1,12 @@
 
+// services/api.js
+
 const axios = require('axios');
 
-const API_BASE_URL = 'https://documentcloud.adobe.io/document/api'; 
-const API_KEY = 'Llave_de_API'; 
-const TEMPLATE_ID = 'ID_plantilla'; 
+// Se configura la API de Adobe
+const API_BASE_URL = 'https://documentcloud.adobe.io/document/api';
+const API_KEY = 'Llave_de_API_';  
+const TEMPLATE_ID = 'ID_plantilla';  
 
 async function generateDocument(data) {
     try {
