@@ -3,7 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const path = require('path');
 const authController = require('./authcontroller');
-const documentService = require('./services/documentGenerationService'); // Importa el servicio
+const documentService = require('./api'); // Importa el archivo api.js
 
 const app = express();
 
