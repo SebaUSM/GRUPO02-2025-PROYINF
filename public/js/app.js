@@ -48,11 +48,9 @@ app.get('/dashboard/maestro', ensureRole('maestro'), (req, res) => {
     res.sendFile(path.join(__dirname, '../maestro.html'));
 });
 
-// Configuración de multer para manejar la carga de archivos
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-// Middleware para servir archivos estáticos
 app.use(express.static('public'));
 
 // Ruta para subir un archivo PDF
