@@ -17,14 +17,13 @@ const pool = new Pool({
     port: process.env.DB_PORT,
 });
 
-
 const app = express();
 
 app.use(express.json());
 app.use(session({
     secret: 'tu_clave_secreta',
     resave: false,
-    saveUninitialized: true
+    saveUninitialized: true,
 }));
 
 function ensureRole(role) {
@@ -40,14 +39,13 @@ function ensureRole(role) {
 // Ruta de inicio de sesión
 app.post('/auth/login', authController.login);
 
-// Ruta protegida para admin.html
+// Rutas protegidas
 app.get('/dashboard/admin', ensureRole('admin'), (req, res) => {
     res.sendFile(path.join(__dirname, '../admin.html'));
 });
 
-// Ruta protegida para maestro.html
 app.get('/dashboard/maestro', ensureRole('maestro'), (req, res) => {
-    res.sendFile(path.join(__dirname, '../maestro.html')); 
+    res.sendFile(path.join(__dirname, '../maestro.html'));
 });
 
 // Configuración de multer para manejar la carga de archivos
@@ -57,19 +55,23 @@ const upload = multer({ storage: storage });
 // Middleware para servir archivos estáticos
 app.use(express.static('public'));
 
-
 // Ruta para subir un archivo PDF
 app.post('/upload', upload.single('pdf'), async (req, res) => {
     try {
+        console.log('Título recibido:', req.body.title);
+        console.log('Archivo recibido:', req.file);
+
         const { title } = req.body;
         const file = req.file.buffer; // Archivo PDF en formato buffer
         const result = await pool.query(
             'INSERT INTO pdf_files (title, file) VALUES ($1, $2) RETURNING *',
             [title, file]
         );
+
+        console.log('Archivo insertado en la base de datos:', result.rows[0]);
         res.json({ message: 'Archivo subido con éxito', pdf: result.rows[0] });
     } catch (err) {
-        console.error(err);
+        console.error('Error al subir el archivo:', err);
         res.status(500).json({ error: 'Error al subir el archivo' });
     }
 });
@@ -88,17 +90,18 @@ app.get('/pdf/:id', async (req, res) => {
         res.contentType('application/pdf');
         res.send(pdfFile.file);
     } catch (err) {
-        console.error(err);
+        console.error('Error al obtener el archivo:', err);
         res.status(500).json({ error: 'Error al obtener el archivo' });
     }
 });
 
+// Ruta para obtener la lista de PDFs
 app.get('/pdfs', async (req, res) => {
     try {
         const result = await pool.query('SELECT id, title FROM pdf_files');
         res.json(result.rows);
     } catch (err) {
-        console.error(err);
+        console.error('Error al obtener los archivos:', err);
         res.status(500).json({ error: 'Error al obtener los archivos' });
     }
 });
