@@ -55,7 +55,7 @@ npx knex seed:run
 Este comando rellenará la tabla con valores de prueba para iniciar sesión en la web posteriormente
 * Finalmente para ejecutar el proyecto, se debe ingresar el siguiente comando:
 ```
-node src/app.js
+node public/js/app.js
 ```
 * Para ingresar al sitio web deberá abrir sus navegador de preferencia e ir a la direccion ```http://localhost:3000``` donde verá el proyecto levantado.
 
