@@ -1,5 +1,5 @@
 ## Semestre 2025-1
-Este es el repositorio del grupo 11 cuyos integrantes son:
+Este es el repositorio del grupo 2 cuyos integrantes son:
 
 * Sebastián Torres - 202073596-4
 * Aylin Sandoval - 
