@@ -2,7 +2,7 @@
 Este es el repositorio del grupo 2 cuyos integrantes son:
 
 * Sebastián Torres - 202073596-4
-* Aylin Sandoval - 
+* Aylin Sandoval - 202173638-7
 * Nicolás Gonzalez - 201990004-8
 * Bruno Yáñez - 
 
