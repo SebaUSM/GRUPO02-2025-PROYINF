@@ -1,3 +1,15 @@
+## Semestre 2025-1
+Este es el repositorio del grupo 11 cuyos integrantes son:
+
+* Sebastián Torres - 202073596-4
+* Aylin Sandoval - 
+* Nicolás Gonzalez - 201990004-8
+* Bruno Yáñez - 
+
+#### Ayudante: Carlos Arevalo
+#### Profesor: Ricardo Salas
+
+
 ## Semestre Pasado 2024-2
 
 ## INF236-GRUPO-11
