@@ -1,3 +1,5 @@
+## Semestre Pasado 2024-2
+
 ## INF236-GRUPO-11
 
 Este es el repositorio del grupo 11 cuyos integrantes son:
