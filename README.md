@@ -6,7 +6,7 @@ Este es el repositorio del grupo 2 cuyos integrantes son:
 * Nicolás Gonzalez - 201990004-8
 * Bruno Yáñez - 
 
-#### Ayudante: Carlos Arevalo
+#### Ayudante: Carlos Arévalo
 #### Profesor: Ricardo Salas
 
 
