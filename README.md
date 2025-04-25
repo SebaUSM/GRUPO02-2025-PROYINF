@@ -67,6 +67,22 @@ Esto creará la tabla de usuarios en la base de datos, luego ocupe el siguiente 
 npx knex seed:run
 ```
 Este comando rellenará la tabla con valores de prueba para iniciar sesión en la web posteriormente
+
+## Actualización 2025-1S ##
+### Teniendo en cuenta los pasos anteriores ahora debemos: ###
+* En la base de datos ingresar de forma manual:
+
+  id = 1, username = admin, password = 1223, role = admin
+  
+  id = 2, username = bibliotecologa, password = 1233, role = maestro
+  
+  Esto con el objetivo de poder ingresar a la plataforma.
+* En la consola colocar: 
+```
+npm install bcrypt
+```
+El cual nos permitirá descargar bcrypt que nos ayudará con la encriptación de las contraseñas de los usuarios ya creados en la base de datos.
+
 * Finalmente para ejecutar el proyecto, se debe ingresar el siguiente comando:
 ```
 node public/js/app.js
