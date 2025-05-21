@@ -83,6 +83,11 @@ npm install bcrypt
 ```
 El cual nos permitirá descargar bcrypt que nos ayudará con la encriptación de las contraseñas de los usuarios ya creados en la base de datos.
 
+Tras esto instalar:
+```
+npm install nodemailer
+```
+Esto nos ayudará a poder enviar notificaciones al correo de los administradores.
 * Finalmente para ejecutar el proyecto, se debe ingresar el siguiente comando:
 ```
 node public/js/app.js
