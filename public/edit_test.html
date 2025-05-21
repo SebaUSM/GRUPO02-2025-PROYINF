@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor Visual por Recuadros</title>
+  <link rel="stylesheet" href="css/edit.css">
+</head>
+<body>
+
+  <div class="menu">
+    <button onclick="agregarBloque('titulo')">+ Título</button>
+    <button onclick="agregarBloque('subtitulo')">+ Subtítulo</button>
+    <button onclick="agregarBloque('parrafo')">+ Párrafo</button>
+    <button onclick="agregarBloque('cuadro')">+ Cuadro</button>
+    <button onclick="agregarBloque('imagen')">+ Imagen</button>
+    <button onclick="exportarComoPlantilla()">Exportar plantilla</button>
+    <input type="file" id="fileImport" accept=".json" style="display:none;">
+    <button onclick="document.getElementById('fileImport').click()">Importar plantilla</button>
+    <input type="file" id="fileInput" accept="image/*" style="display: none;" />
+  </div>
+
+  <div id="canvas"></div>
+
+  <script src="js/edit.js" defer></script>
+</body>
+</html>

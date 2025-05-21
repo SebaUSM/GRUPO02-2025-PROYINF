@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "biblio",
+      "password": "$2b$10$ztkUHnBs5U8KmU5lzWNIrOENumcdm7nKUQCiea7xsnWrzgFTG8372",
+      "role": "maestro"
+    },
+    {
+      "id": 3,
+      "username": "administrador",
+      "password": "$2b$10$7jb65WidLYtTLESXTZlHy.kOhtRyyw/J51LI/A7Tch0WEc8Sx8NOG",
+      "role": "admin"
+    },
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2b$10$0CnDqW7IuT0LebaWKIN/tuqip3MVPCEQfCmHKXnGYglcUvjqgtxwq",
+      "role": "admin"
+    }
+  ],
+  "pdf_files": []
+}
