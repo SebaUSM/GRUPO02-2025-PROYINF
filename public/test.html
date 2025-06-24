@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIA - Fundación para la Innovación Agraria</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo_fia.svg">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/dashboard/admin" id="navbar__logo">
+        <img id="navbar__logo_img" src="/images/logo_fia.svg" alt="Logo FIA" />
+      </a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#" class="navbar__links">Inicio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__links">Estadísticas</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__links">FIA</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Bienvenido, administrador.</h1>
+  </header>
+
+  <main>
+    <h2>Extracción de información desde boletines</h2>
+
+    <div class="boletines-panel">
+      <div class="form-group">
+        <label for="pdfSelect"><strong>Selecciona un boletín PDF:</strong></label>
+        <select class="form-control" id="pdfSelect">
+          <option value="">-- Selecciona un archivo --</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="topicInput"><strong>Tema(s) a filtrar (separados por coma):</strong></label>
+        <input type="text" class="form-control" id="topicInput" placeholder="Ej: clima, plagas" />
+      </div>
+
+      <button id="procesarBtn" class="btn btn-primary">Procesar</button>
+    </div>
+
+    <hr />
+
+    <h3>Resultados</h3>
+    <div id="resultadosCards" class="resultados-container" style="display: none;"></div>
+    <p id="sinResultados" style="display: none;">No se encontró información relevante para los temas ingresados.</p>
+
+    <p>Este es el panel de administración. Aquí puedes ver las estadísticas y gestionar los usuarios.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 FIA. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="/js/clasificador_test.js"></script>
+</body>
+
+</html>

@@ -51,24 +51,36 @@
         </div>
     </div>
 
-    <div id="loginModal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h2>Iniciar Sesión</h2>
-            <form id="loginForm">
-                <label for="username">Usuario</label>
-                <input type="text" id="username" name="username" required />
-                
-                <label for="password">Contraseña</label>
-                <input type="password" id="password" name="password" required />
-                
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-        </div>
-    </div>
-    
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+      <label for="username">Usuario</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Contraseña</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" name="password" required>
+        <span class="show-password">Mostrar</span>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="remember">
+        <label for="remember">Mantener sesión iniciada</label>
+      </div>
+
+      <button type="submit" class="login-button">Iniciar Sesión</button>
+
+      <div class="links">
+        <a href="#">¿Olvidaste tu usuario?</a>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+        <a href="#">¿No puedes iniciar sesión?</a>
+      </div>
+    </form>
+  </div>
+</div>
     <div class="pdf-list">
-        <h2>Documentos PDF</h2>
         <ul id="pdfList"></ul>
     </div>    
 
